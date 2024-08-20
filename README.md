@@ -1,4 +1,4 @@
-![Alt Text]([https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif](https://cainvas-static.s3.amazonaws.com/media/user_data/cainvas-admin/mnist_keras.gif))
+![Alt Text](https://cainvas-static.s3.amazonaws.com/media/user_data/cainvas-admin/mnist_keras.gif)
 
 # mnist_simpler
 Basic ML classifier on MNIST dataset. Build with Python and Pytorch
