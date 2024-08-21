@@ -4,4 +4,4 @@
 Basic ML classifier on MNIST dataset. Build with Python and Pytorch
 
 ## Overview and specs
-Idea behind this was to make the model more like a brain, not all nodes are connected and some might go above a layer. This was cardinally stupid idea as it bypasses the needed itterations needed for it to work, also it is like 20k times  slower. In the end not  even the brain works like this, you just have to imagine a different structure, one where some nodes or even layers branch out and reconnect layer on in the model. That will be chaos mk2.
+The default model runs for 20 epochs in training and has app. 95% accuracy after that time. It has two hidden layers. The input layer is 28x28 picture expressed in grey scale values from mnist_train.csv or mnist_test.csv. The hidden layers have 512 and 10 nodes respectively. The output layer has 10 nodes corresponding to 10 classification sections for number 0 through 9. The activation function between layers is always ReLU. Cross entropy loss function is at use here. The optimizer is SGD the whole thing, while learning rate is set as default to 0.1. All layers of this model are fully connected (aka. dense)
